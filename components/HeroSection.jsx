@@ -98,7 +98,7 @@ export function HeroSectionOne() {
             className="w-full overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700">
             <img
               src="https://assets.aceternity.com/pro/aceternity-landing.webp"
-              alt="Landing page preview"
+              alt="Landing page "
               className="aspect-[16/9] h-auto w-full object-cover"
               height={1000}
               width={1000} />
