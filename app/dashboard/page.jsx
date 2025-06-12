@@ -5,6 +5,7 @@ import InterViewList from './_components/InterViewList'
 
 function dashboard() {
   return (
+    <div className='m-0'>
     <div className='p-10'>
       <h2 className='font-bold text-2-xl'>Dashboard</h2>
       <h2 className='text-gray-500'>Create and start AI Mock Interview</h2>
@@ -12,6 +13,7 @@ function dashboard() {
         <AddNewInterview/>
       </div>
       <InterViewList/>
+    </div>
     </div>
   )
 }

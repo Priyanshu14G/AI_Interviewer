@@ -22,8 +22,8 @@ function InterviewItemCard({interview}) {
         <h2 className='text-sm text-gray-600'>{interview?.jobExperience} Years of Experience</h2>
         <h2 className='text-sx text-gray-400'>Created At: {interview?.createdAt}</h2>
         <div className='flex justify-between mt-2'>
-            <Button size="sm" variant="outline" className="" onClick={onFeedback}>Feedback</Button>
-            <Button size="sm" className="" onClick={onStart}>Start</Button>
+            <Button size="sm" variant="outline" className="cursor-pointer" onClick={onFeedback}>Feedback</Button>
+            <Button size="sm" className="cursor-pointer" onClick={onStart}>Start</Button>
         </div>
     </div>
 

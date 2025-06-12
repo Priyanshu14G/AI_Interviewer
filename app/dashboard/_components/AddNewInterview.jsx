@@ -18,7 +18,7 @@ import { useUser } from "@clerk/nextjs";
 import moment from "moment/moment";
 import { db } from "@/utils/db";
 import { useRouter } from "next/navigation";
-
+import Footer from "@/components/Footer";
 
 
 function AddNewInterview() {
@@ -86,6 +86,7 @@ function AddNewInterview() {
 
 
   return (
+    <div>
     <div>
       <div
         className="p-10 border rounded-lg bg-secondary hover:scale-105 hover:shadow-md cursor-pointer transition-all"
@@ -160,7 +161,9 @@ function AddNewInterview() {
           </DialogHeader>
         </DialogContent>
       </Dialog>
+      {/* <Footer/> */}
     </div>
+      </div>
   );
 }
 
