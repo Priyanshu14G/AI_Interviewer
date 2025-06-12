@@ -54,7 +54,7 @@ function Feedback() {
         </h2>
         <h2 className="text-sm text-gray-500">
           Find below interview question with correct answer, Your answer and
-          Feedback for improvement
+          Feedback for improvement(click on the Question to check the review)
         </h2>
         {feedbackList &&
           feedbackList.map((item, index) => (
