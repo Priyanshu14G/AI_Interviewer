@@ -50,7 +50,7 @@ function Feedback() {
          <h2 className="text-2xl font-bold text-green-500">Congratulations!</h2>
         <h2 className="font-bold text-2xl">Here is your interview feedback</h2>
         <h2 className="text-blue-600/100 dark:text-sky-400/100 text-lg my-3">
-          Your overall interview rating:<strong> 7/10</strong>
+          Find your rating below
         </h2>
         <h2 className="text-sm text-gray-500">
           Find below interview question with correct answer, Your answer and
